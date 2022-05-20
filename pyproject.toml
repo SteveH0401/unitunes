@@ -22,7 +22,7 @@ unitunes = "unitunes.cli.cli:app"
 # up-eval = "unitunes.eval.eval:eval_app"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 typer = {extras = ["all"], version = "^0.4.1"}
 spotipy = "^2.19.0"
 ytmusicapi = "^0.21.0"
